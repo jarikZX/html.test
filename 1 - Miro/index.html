@@ -3,46 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Miro</title>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li>Продукт</li>
-                <li>Решения</li>
-                <li>Ресурсы</li>
-                <li>Предприятия</li>
-                <li>Тарифы</li>
+                <li><a href="">Продукт</a></li>
+                <li><a href="">Решения</a></li>
+                <li><a href="">Ресурсы</a></li>
+                <li><a href="">Предприятия</a></li>
+                <li><a href="">Тарифы</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
             <h1>Место для командной работы</h1>
-            <p>
+            <p class="heroText">
                 Интерактивная онлайн-доска для совместной работы команд - в любое время, в любом месте.
             </p>
-            <form action="/registr" method="get"></form>
+            <form action="/registr" method="get" class="heroForm">
+                <input type="email" name="email" id="email">
+                <button id="heroButton">Начать бесплатно</button>
+            </form>
+            <p>Всегда бесплатно = кредитная карта не нужна</p>
             <img src="./images/hero.png" alt="Изображение экрана работы Miro">
         </section>
         <section>
             <h2>Работайте вместе, где бы вы ни находились</h2>
-            <p>
+            <p class="sectionText">
                 Работая в офисе, удалённо или в гибридном формате, с Miro ваша команда может общаться, сотрудничать и совместно
                 заниматься творчеством в одном пространстве, из любой точки мира.
             </p>
-            <a href="#">Узнать больше</a>
+            <a href="#" class="bodyLink">Узнать больше</a>
             <img src="./images/1.png" alt="Работа в Miro c мобильных устройств">
         </section>
         <section>
             <img src="./images/2.png" alt="Сервисы вокруг Miro">
             <h2>Закройте лишние вкладки — всё уже здесь</h2>
-            <p>
+            <p class="sectionText">
                 Редактируете ли вы документы в Google Docs, работаете над задачами в Jira или созваниваетесь в Zoom, Miro предлагает
                 более 100 интеграций с уже известными и полюбившимися вам инструментами.
             </p>
-            <a href="#">Узнать больше</a>
+            <a href="#" class="bodyLink">Узнать больше</a>
         </section>
     </main>
     <footer>
